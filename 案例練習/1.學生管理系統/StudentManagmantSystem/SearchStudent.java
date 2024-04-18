@@ -11,7 +11,7 @@ public class SearchStudent {
             return;
         // 4.2 如果有學生訊息，就列出學生訊息
         } 
-        System.out.println("id\t姓名\t性別\t生日\t電話");
+        System.out.println("id\t姓名\t性別\t生日");
         for (int i = 0; i < list.size(); i++) {
             // 取得學生訊息
             student stu = list.get(i);
